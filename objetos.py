@@ -2,7 +2,7 @@ import math
 
 class Punto():
     # Representación de un punto en el plano
-    def __init__(self,x=0,y=0): # VALORES 0,0 POR DEFECTO (SINO HAY VALORES)
+    def __init__(self,x=0,y=0): # VALORES 0,0 POR DEFECTO (SI AL CONSTRUCTOR SE LE LLAMA VACÍO)
         self.x=x
         self.y=y
 
